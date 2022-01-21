@@ -1,0 +1,60 @@
+#container {
+    width: 608px;
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+    border: solid black 4px;
+}
+
+.rows {
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.squares {
+    border: solid black 1px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+
+.touchedsquares {
+    background-color: red;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: solid red 1px;
+    padding: 12px;
+}
+
+button {
+    background-color: gray;
+    border: solid red 1px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
