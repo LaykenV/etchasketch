@@ -13,12 +13,15 @@ function prompNum() {
             squares.addEventListener("mouseover", () => {
                 squares.classList.add("touchedsquares");
             });
-        }
+        };
     }
 }
 
 const button = document.querySelector("#button");
 button.addEventListener("click", () => {
+    while (container.firstChild) {
+        container.removeChild(container.lastChild);
+    }
     prompNum();
 });
 
