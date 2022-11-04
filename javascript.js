@@ -14,7 +14,7 @@ function prompNum() {
                 squares.classList.add("touchedsquares");
             });
         };
-    }
+    };
 }
 
 const button = document.querySelector("#button");
